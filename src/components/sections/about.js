@@ -135,32 +135,37 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Hello! I'm Hasini, a seasoned Senior Software Engineer currently contributing my
+              expertise at{' '}
+              <a href="https://ifs.com" target="_blank" rel="noreferrer">
+                IFS R&D
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              . Proudly holding a Bachelor's degree in Information Technology from the,{' '}
+              <a href="https://uom.lk" target="_blank" rel="noreferrer">
+                University of Moratuwa
+              </a>{' '}
+              I embarked on my coding journey, fueled by a passion for finding solutions through
+              elegant lines of code.
             </p>
-
+            <p>
+              My coding odyssey began in the hallowed halls of ,{' '}
+              <a href="https://virtusa.com" target="_blank" rel="noreferrer">
+                Virtusa Corporation
+              </a>{' '}
+              where I honed my skills and delved into the intricate world of machine learning
+              models. Armed with knowledge and experience, I now bring my problem-solving prowess to
+              the forefront, navigating the complex realm of software engineering.
+            </p>
+            <p>
+              Beyond the world of coding, I find joy in exploration. Traveling is not just a pastime
+              for me; it's a source of inspiration that fuels my creative spirit. Each journey, much
+              like a coding challenge, presents opportunities to learn and grow.
+            </p>
+            <p>
+              Join me on this digital expedition as I continue to explore the boundaries of software
+              development, creating innovative solutions and leaving my mark on the ever-evolving
+              landscape of technology.
+            </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 
@@ -173,7 +178,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
