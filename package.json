@@ -19,6 +19,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gatsby build && gh-pages -b main -d public -m 'GitHub Pages Auto Deploy' -u 'Hasini Ishara <23498248+hasiniishara@users.noreply.github.com>'",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
