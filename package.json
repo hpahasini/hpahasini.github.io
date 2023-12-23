@@ -1,17 +1,14 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "hasini-portfolio",
+  "homepage": "https://hpahasini.github.io",
+  "description": "Hasini Ishara",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bchiang7/v4"
-  },
+  "author": "Hasini Ishara",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "portfolio"
   ],
-  "license": "MIT",
-  "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -20,9 +17,14 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "npm run build",
-    "deploy": "gatsby build && gh-pages -b main -d public -m 'GitHub Pages Auto Deploy' -u 'Hasini Ishara <23498248+hasiniishara@users.noreply.github.com>'",
+    "deploy": "gatsby build && gh-pages -b master -d public -m 'GitHub Pages Auto Deploy' -u 'Hasini Ishara <34647376+hpahasini@users.noreply.github.com>'",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -52,6 +54,7 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.19",
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
@@ -63,7 +66,7 @@
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.0",
+    "@babel/core": "^7.23.2",
     "@babel/eslint-parser": "^7.13.14",
     "@babel/preset-react": "^7.13.13",
     "@upstatement/eslint-config": "^1.0.0",
@@ -74,8 +77,8 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
-    "husky": "^6.0.0",
+    "husky": "^8.0.1",
     "lint-staged": "^10.1.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.7.1"
   }
 }
