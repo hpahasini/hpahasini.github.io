@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <p>Designed by Brittany Chiang</p>
+  <small>Designed by Brittany</small> 
       </StyledCredit>
     </StyledFooter>
   );
